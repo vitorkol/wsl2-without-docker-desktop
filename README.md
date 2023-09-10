@@ -1,6 +1,6 @@
 # Como usar o WSL nativo do Windows sem instalar o Docker Desktop
 
-![Windows Subsistem Linux](./images/wsl.png)
+![Windows Subsistem Linux](./images/wsl-intro.png)
 
 *Objetivos deste Repositório*
 
