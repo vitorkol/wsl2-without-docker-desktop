@@ -46,6 +46,8 @@ Embora não tenhamos nos aprofundado, agora você deve estar confiante de que o 
 
 Por fim, você aprendeu que há alguns ótimos recursos que abordam mais detalhadamente esses tópicos disponíveis para atender às suas necessidades e interesses. Nós relacionamos alguns deles abaixo.
 
+[Navegar para: WSL2 - Instalação sem usar Docker Desktop](../wsl-without-dd/introduction.md)
+
 ## Referências adicionais
 
 [Documentação do WSL](https://learn.microsoft.com/pt-br/windows/wsl)
@@ -53,5 +55,3 @@ Por fim, você aprendeu que há alguns ótimos recursos que abordam mais detalha
 [Ambiente empresarial: configure o WSL para sua empresa](https://learn.microsoft.com/pt-br/windows/wsl/enterprise)
 
 [Documentação do Terminal do Windows](https://learn.microsoft.com/pt-br/windows/terminal/)
-
-[Navegar para: WSL2 - Instalação sem usar Docker Desktop](../wsl-without-dd/introduction.md)

@@ -12,7 +12,7 @@
 Todos conteúdo foi preparado com objetivo de elucidar a utilização dos recursos nativos dentro do sistema opoeracional Windows, com menos instalação de softwares terceiros possível.
 Este material foi reproduzido do treinamento oficial da equipe da Microsoft Learn, a quem dedico todos os creditos.
 
-A partir da introdução do [WSL](https://learn.microsoft.com/pt-br/training/modules/wsl-introduction/) evoluímos para o conteúdo principal deste repositório: **Como usar o WSL nativo do Windows sem instalar o Docker Desktop**.
+A partir da introdução do [WSL](https://learn.microsoft.com/pt-br/training/modules/wsl-introduction/) evoluímos para o conteúdo principal deste repositório: **Como usar o WSL nativo do Windows com Docker Engine sem instalar o Docker Desktop**.
 
 | Conteúdo | Descrição |
 | ----------- | ----------- |
