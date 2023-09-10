@@ -1,4 +1,4 @@
-# Como usar o WSL nativo do Windows sem instalar o Docker Desktop
+# Como usar o WSL nativo do Windows com Docker Engine sem instalar o Docker Desktop
 
 ![Windows Subsistem Linux](./images/wsl-intro.png)
 
@@ -17,4 +17,4 @@ A partir da introdução do [WSL](https://learn.microsoft.com/pt-br/training/mod
 | Conteúdo | Descrição |
 | ----------- | ----------- |
 | WSL2 Conceitos básicos | Veja o conteúdo [ms-learn-wsl](./ms-learn-wsl/introduction.md) |
-| WSL2 sem Docker Desktop | Veja o conteúdo [wls-without-dd](./wsl-without-dd/introduction.md) |
+| WSL2 com Docker Engine sem instalagr o Docker Desktop | Veja o conteúdo [wls-without-dd](./wsl-without-dd/introduction.md) |

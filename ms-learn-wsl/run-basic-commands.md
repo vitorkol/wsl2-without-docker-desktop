@@ -24,7 +24,7 @@ Abra uma linha de comando do PowerShell e vamos testar algumas tarefas básicas 
 
 6. Abra sua linha de comando Bash (da distribuição Linux definida como padrão) para o diretório inicial do seu sistema de arquivos WSL inserindo o comando: `wsl ~` de dentro do PowerShell. Você verá que permanece dentro da mesma janela de linha de comando do PowerShell, mas seu prompt será alterado para Bash, com uma aparência semelhante a: **<user>@<CPU-name>:~$**. Insira o comando `pwd` para confirmar que o caminho do diretório agora é algo como **/home/<username>**. Insira o comando: `explorer.exe .` para abrir o diretório no Explorador de Arquivos do Windows File (certifique-se de incluir o ponto, que indica para abrir o caminho do diretório atual). Depois de aberto, você poderá confirmar se o caminho do arquivo é semelhante a: **\\wsl.localhost\Ubuntu\home\<username>**.
 
-![Captura de tela do terminal do PowerShell com o comando wsl ~ inserido mostrando o caminho.](//images/wsl-home-command.png)
+![Captura de tela do terminal do PowerShell com o comando wsl ~ inserido mostrando o caminho.](../images/wsl-home-command.png)
 
 7. Saia da linha de comando do Bash de volta para o PowerShell usando: `exit`. Use o comando `pwd` novamente para ver o caminho em que você está agora. Deverá ser algo como **C:\Users\<username>\...**. Assim, você poderá ver que alternou entre o sistema de arquivos do Windows (unidade C:\) e o sistema de arquivos do Linux (unidade de rede \\wsl.localhost\<distro name>). Vamos tentar abrir o diretório atual do sistema de arquivos do Windows no Bash usando o comando: wsl sem o ~ (que indica abrir o Bash no diretório inicial do Linux). Você verá que o caminho do diretório agora é algo como **/mnt/c/Users/<username>/...**, pois o Bash está apontando para o caminho do sistema de arquivos do Windows na unidade C montada. O diretório da unidade C está montado porque agora você está exibindo-o de dentro do sistema de arquivos do Linux.
 
@@ -47,8 +47,11 @@ Embora não tenhamos nos aprofundado, agora você deve estar confiante de que o 
 Por fim, você aprendeu que há alguns ótimos recursos que abordam mais detalhadamente esses tópicos disponíveis para atender às suas necessidades e interesses. Nós relacionamos alguns deles abaixo.
 
 ## Referências adicionais
+
 [Documentação do WSL](https://learn.microsoft.com/pt-br/windows/wsl)
+
 [Ambiente empresarial: configure o WSL para sua empresa](https://learn.microsoft.com/pt-br/windows/wsl/enterprise)
+
 [Documentação do Terminal do Windows](https://learn.microsoft.com/pt-br/windows/terminal/)
 
 [Navegar para: WSL2 - Instalação sem usar Docker Desktop](../wsl-without-dd/introduction.md)

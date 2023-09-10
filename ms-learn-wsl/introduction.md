@@ -23,5 +23,6 @@ A arquitetura do WSL permite que qualquer distribuição do Linux seja executada
 
 ## Quando usar o WSL?
 O WSL é uma ferramenta versátil. Ele fornece uma ótima maneira de aprender a trabalhar com ferramentas do Linux, experimentar diferentes distribuições do Linux ou incorporar ferramentas do Linux e Windows perfeitamente em seu ambiente profissional de fluxo de trabalho e desenvolvimento. O WSL foi projetado para desenvolvimento e tem problemas específicos a serem considerados se você deseja usá-lo para cargas de trabalho de produção, mas é ótimo para pipelines de CI/CD. O WSL também pode ser usado em configurações empresariais de negócios, com a capacidade de criar e distribuir imagens WSL para computadores usados em sua empresa, mas com algumas considerações de segurança específicas a serem consideradas.
+
 [Navegar para: Instalação e configuração do WSL](./install-and-setup.md)
 
